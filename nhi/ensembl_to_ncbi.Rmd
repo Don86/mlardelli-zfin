@@ -1,0 +1,69 @@
+---
+title: "ensembl_to_ncbi_id"
+output: html_document
+---
+
+```{r}
+library("pacman")
+
+pacman::p_load("biomaRt", "tidyverse")
+```
+
+### Load Data
+
+```{r}
+# Load counts data
+tbl0 <- read_tsv("/Users/don/Documents/mlardelli/nhi/counts.tsv") %>% rename(ensembl_id = gene_id)
+
+ensembl <- useEnsembl(biomart = "genes")
+ensembl <- useDataset(dataset = "drerio_gene_ensembl", mart = ensembl)
+
+#listAttributes(ensembl)
+#listFilters(ensembl)
+
+ensembl_ls <- tbl0 %>% select(`ensembl_id`) %>% unlist() %>% as.vector()
+print(length(ensembl_ls))
+```
+
+### Small Test with a list of 3 ensembl IDs
+
+One of which is crap.
+```{r}
+# test
+unfound_ls <- c("ENSDARG00000000161", "undef", "ENSDARG00000000018")
+getBM(attributes=c("ensembl_gene_id", 'entrezgene_id'), 
+                values=unfound_ls,
+      filters = "ensembl_gene_id",
+                mart=ensembl)
+```
+
+### Full Run
+
+```{r}
+nm_map <- getBM(attributes=c("ensembl_gene_id", 'entrezgene_id'), 
+                values=ensembl_ls, 
+                filters = "ensembl_gene_id",
+                mart=ensembl) %>% 
+  as_tibble() %>%
+  rename(ensembl_id = ensembl_gene_id) %>%
+  rename(ncbi_id = entrezgene_id)
+print(dim(nm_map))
+
+```
+
+```{r}
+# wrangle
+tbl1 <- right_join(nm_map, tbl0, by="ensembl_id") %>% replace_na(list(ncbi_id="undef"))
+print(dim(tbl1))
+
+# Remove ensembl_id column
+# those without ncbi_ids will just be removed altogether
+tbl1 <- tbl1 %>% select(-c(ensembl_id)) %>% filter(ncbi_id !="undef")
+print(dim(tbl1))
+```
+
+```{r}
+# write out
+write_tsv(tbl1, "/Users/don/Documents/mlardelli/nhi/expr_ncbi_ids_n21927.tsv", na="undef")
+```
+

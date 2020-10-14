@@ -1,0 +1,152 @@
+query,hit,hmdb_id,kegg_id
+"*13C,15N-UMP",undef,undef,undef
+"*13C5,15N1-Valine",undef,undef,undef
+*13C6-Sorbitol,undef,undef,undef
+"*13C10,15N5-AMP",undef,undef,undef
+PA(16:0/16:0),PA(16:0/16:0),HMDB0000674,C00416
+Behenic acid,Behenic acid,HMDB0000944,C08281
+Nonadecanoic acid,Nonadecanoic acid,HMDB0000772,C16535
+Erucic acid,Erucic acid,HMDB0002068,C08316
+Phytanic acid,Phytanic acid,HMDB0000801,C01607
+Vaccenic acid,Vaccenic acid,HMDB0003231,C08367
+Alpha-Tocopherol,Alpha-Tocopherol,HMDB0001893,C02477
+Linoleic acid,Linoleic acid,HMDB0000673,C01595
+Stearic acid,Stearic acid,HMDB0000827,C01530
+Palmitic acid,Palmitic acid,HMDB0000220,C00249
+Heptadecanoic acid,Heptadecanoic acid,HMDB0002259,undef
+Pentadecanoic acid,Pentadecanoic acid,HMDB0000826,C16537
+Alpha-Linolenic acid,Alpha-Linolenic acid,HMDB0001388,C06427
+Myristic acid,Myristic acid,HMDB0000806,C06424
+Dodecanoic acid,Dodecanoic acid,HMDB0000638,C02679
+Undecanoic acid,Undecanoic acid,HMDB0000947,C17715
+Capric acid,Capric acid,HMDB0000511,C01571
+Pelargonic acid,Pelargonic acid,HMDB0000847,C01601
+2-Hydroxy-2-methylbutyric acid,2-Hydroxy-2-methylbutyric acid,HMDB0001987,undef
+(S)-3-Hydroxyisobutyric acid,(S)-3-Hydroxyisobutyric acid,HMDB0000023,C06001
+2-Hydroxybutyric acid,2-Hydroxybutyric acid,HMDB0000008,C05984
+Alpha-Hydroxyisobutyric acid,Alpha-Hydroxyisobutyric acid,HMDB0000729,undef
+N-Acetyl-L-tyrosine,N-Acetyl-L-tyrosine,HMDB0000866,C01657
+N-Acetyl-L-alanine,N-Acetyl-L-alanine,HMDB0000766,undef
+Deoxyinosine,Deoxyinosine,undef,undef
+Cyclic AMP,Cyclic AMP,HMDB0000058,C00575
+Hypoxanthine,Hypoxanthine,undef,undef
+L-Phenylalanine,L-Phenylalanine,HMDB0000159,C00079
+L-Leucine,L-Leucine,HMDB0000687,C00123
+Acetylglycine,Acetylglycine,HMDB0000532,undef
+L-Acetylcarnitine,L-Acetylcarnitine,HMDB0000201,C02571
+Pyrrolidonecarboxylic acid,Pyrrolidonecarboxylic acid,HMDB0000805,C02237
+Inosine,Inosine,undef,undef
+N-Acetylglutamine,N-Acetylglutamine,HMDB0006029,undef
+L-Isoleucine,L-Isoleucine,HMDB0000172,C00407
+Betaine,Betaine,HMDB0000043,C00719
+L-Methionine,L-Methionine,HMDB0000696,C00073
+2-Hydroxyethanesulfonate,2-Hydroxyethanesulfonate,HMDB0003903,C05123
+L-Tryptophan,L-Tryptophan,HMDB0000929,C00078
+Xanthine,Xanthine,HMDB0000292,C00385
+Cytidine,Cytidine,undef,C00475
+Beta-N-Acetylglucosamine,Beta-N-Acetylglucosamine,HMDB0000803,C03878
+FAD,FAD,HMDB0001248,C00016
+Guanine,Guanine,undef,undef
+L-Pipecolic acid,L-Pipecolic acid,HMDB0000716,C00408
+L-Valine,L-Valine,HMDB0000883,C00183
+Guanosine,Guanosine,undef,undef
+Alanylglycine,Alanylglycine,HMDB0006899,undef
+L-Proline,L-Proline,HMDB0000162,C00148
+Acetyl-CoA,Acetyl-CoA,HMDB0001206,C00024
+Uracil,Uracil,HMDB0000300,C00106
+Orotidine,Orotidine,HMDB0000788,C01103
+D-Xylitol,D-Xylitol,HMDB0002917,C00379
+Maleic acid,Maleic acid,undef,undef
+L-Tyrosine,L-Tyrosine,HMDB0000158,C00082
+L-Carnitine,L-Carnitine,HMDB0000062,C00318
+4-Trimethylammoniobutanoic acid,4-Trimethylammoniobutanoic acid,HMDB0001161,C01181
+S-Adenosylhomocysteine,S-Adenosylhomocysteine,HMDB0000939,C00021
+Methionine sulfoxide,Methionine sulfoxide,undef,undef
+N-Methyl-D-aspartic acid,N-Methyl-D-aspartic acid,HMDB0002393,C12269
+N-Acetylneuraminic acid,N-Acetylneuraminic acid,HMDB0000230,C19910
+Sorbitol,Sorbitol,HMDB0000247,C00794
+2-Methylcitric acid,2-Methylcitric acid,undef,undef
+(R)-lipoic acid,(R)-lipoic acid,HMDB0001451,C16241
+Adenosine monophosphate,Adenosine monophosphate,HMDB0000045,C00020
+Coenzyme A,Coenzyme A,undef,undef
+NAD,NAD,HMDB0000902,C00003
+Glycerophosphocholine,Glycerophosphocholine,HMDB0000086,C00670
+Gluconic acid,Gluconic acid,HMDB0000625,C00257
+L-Threonine,L-Threonine,HMDB0000167,C00188
+Glycine,Glycine,HMDB0000123,C00037
+Uric acid,Uric acid,HMDB0000289,C00366
+Phthalic acid,Phthalic acid,HMDB0002107,C01606
+Thiamine pyrophosphate,Thiamine pyrophosphate,HMDB0001372,C00068
+L-Alanine,L-Alanine,HMDB0000161,C00041
+N-Acetylglutamic acid,N-Acetylglutamic acid,undef,undef
+N-Alpha-acetyllysine,N-Alpha-acetyllysine,HMDB0000446,C12989   
+Hypotaurine,Hypotaurine,HMDB0000965,C00519
+L-Glutamine,L-Glutamine,HMDB0000641,C00064
+L-Glutamic acid,L-Glutamic acid,HMDB0000148,C00025
+N-Acetylornithine,N-Acetylornithine,HMDB0003357,C00437
+Taurine,Taurine,HMDB0000251,C00245
+Aminoadipic acid,Aminoadipic acid,undef,undef
+Gamma-Aminobutyric acid,Gamma-Aminobutyric acid,HMDB0000112,C00334
+Glycerol 3-phosphate,Glycerol 3-phosphate,HMDB0000126,C00093
+L-Aspartic acid,L-Aspartic acid,HMDB0000191,C00049
+ADP,ADP,HMDB0001341,C00008
+Citicoline,Citicoline,HMDB0001413,C00307
+Uridine 5'-monophosphate,Uridine 5'-monophosphate,HMDB0000288,C00105
+Uridine diphosphate-N-acetylglucosamine,Uridine diphosphate-N-acetylglucosamine,HMDB0000290,C00043
+Cytidine monophosphate,Cytidine monophosphate,HMDB0000095,C00055
+Itaconic acid,Itaconic acid,HMDB0002092,C00490
+D-2-Hydroxyglutaric acid,D-2-Hydroxyglutaric acid,HMDB0000606,C01087
+L-Serine,L-Serine,HMDB0000187,C00065
+Succinic acid,Succinic acid,HMDB0000254,C00042
+Succinic anhydride,Succinic anhydride,HMDB0032523,C19524
+O-Phosphoethanolamine,O-Phosphoethanolamine,HMDB0000224,C00346
+Alpha-Lactose,Alpha-Lactose,HMDB0000186,C00243
+D-Ribose 5-phosphate,D-Ribose 5-phosphate,HMDB0001548,C00117
+Oxoglutaric acid,Oxoglutaric acid,HMDB0000208,C00026
+Phosphoric acid,Phosphoric acid,undef,undef
+Fructose 6-phosphate,Fructose 6-phosphate,HMDB0000124,C00085
+D-Glyceraldehyde 3-phosphate,D-Glyceraldehyde 3-phosphate,undef,C00118
+Malonic acid,Malonic acid,HMDB0000691,C04025
+Maltotriose,Maltotriose,HMDB0001262,C01835
+Fumaric acid,Fumaric acid,HMDB0000134,C00122
+L-Malic acid,L-Malic acid,HMDB0000156,C00149
+Galacturonic acid,Galacturonic acid,HMDB0002545,C08348
+Adenosine triphosphate,Adenosine triphosphate,HMDB0000538,C00002
+Uridine diphosphate glucose,Uridine diphosphate glucose,HMDB0000286,C00029
+L-Homocysteic acid,L-Homocysteic acid,HMDB0002205,C16511
+NADP,NADP,HMDB0000217,C00006
+Guanosine monophosphate,Guanosine monophosphate,HMDB0001397,C00144
+L-Cystathionine,L-Cystathionine,HMDB0000099,C02291
+myo-Inositol,myo-Inositol,HMDB0000211,C00137
+Glucose 6-phosphate,Glucose 6-phosphate,HMDB0001401,C00668
+Oxidized glutathione,Oxidized glutathione,undef,undef
+6-Phosphogluconic acid,6-Phosphogluconic acid,HMDB0001316,C00345
+Guanosine diphosphate,Guanosine diphosphate,HMDB0001201,C00035
+cis-Aconitic acid,cis-Aconitic acid,HMDB0000072,C00417
+Guanosine diphosphate mannose,Guanosine diphosphate mannose,HMDB0001163,C00096
+Citric acid,Citric acid,HMDB0000094,C00158
+Guanosine triphosphate,Guanosine triphosphate,HMDB0001273,C00044
+L-Lysine,L-Lysine,HMDB0000182,C00047
+L-Arginine,L-Arginine,HMDB0000517,C00062
+Hydroxyoctanoic acid,Hydroxyoctanoic acid,undef,undef
+Taurocholic acid,Taurocholic acid,HMDB0000036,C05122
+Loperamide,Loperamide,HMDB0004999,C07080
+Pantothenic acid,Pantothenic acid,HMDB0000210,C00864
+Adenine,Adenine,HMDB0000034,C00147
+Undecanedioic acid,Undecanedioic acid,HMDB0000888,undef
+Glycyl-L-leucine,Glycylleucine,HMDB0000759,C02155
+Uridine,Uridine,HMDB0000296,C00299
+Orotic acid,Orotic acid,HMDB0000226,C00295
+N-Acetyl-D-glucosamine,N-Acetyl-D-glucosamine,HMDB0000215,C00140
+Erythritol,Erythritol,undef,C00503
+N6-Acetyl-L-lysine,N6-Acetyl-L-lysine,HMDB0000206,C02727
+3-Methylhistidine,3-Methylhistidine,HMDB0000479,C01152
+Threonic acid,Threonic acid,HMDB0000943,C01620
+D-Alpha-aminobutyric acid,D-Alpha-aminobutyric acid,HMDB0000650,C02261
+Deoxyribose 5-phosphate,Deoxyribose 5-phosphate,HMDB0001031,C00673
+Dihydroxyacetone phosphate,Dihydroxyacetone phosphate,HMDB0001473,C00111
+Citrulline,Citrulline,HMDB0000904,C00327
+D-Glucuronic acid,D-Glucuronic acid,HMDB0000127,C00191
+D-Erythrose 4-phosphate,D-Erythrose 4-phosphate,HMDB0001321,C00279
+Uridine 5'-diphosphate,Uridine 5'-diphosphate,HMDB0000295,C00015
+3-Phosphoglyceric acid,3-Phosphoglyceric acid,HMDB0000807,C00597

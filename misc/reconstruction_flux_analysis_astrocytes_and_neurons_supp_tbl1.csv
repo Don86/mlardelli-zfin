@@ -1,0 +1,23 @@
+Reaction/enzyme,reaction number in astrocytes,reaction number in neurons,coupling/differences
+Lactate dehydrogenase,r11,-,only active in astrocytes
+pyruvate carboxylation,r12,-,only active in astrocytes
+cytosolic malate dehydrogenation,r32,r68,The one in neurons is in reverse direction ofthe mitochondrial reaction; thereby mimicking malate-aspartate shuttle active in neurons
+malic enzyme,r33,r69,cytosolic in astrocytes; mitochondrial in neurons
+glutamine synthetase,r77,-,only active in astrocytes
+glutaminase,-,r79,only active in neurons
+glutamate decarboxylase,-,r80,only active in neurons
+3-phosphoglycerate dehydrogenase,r92,-,only active in astrocytes
+serine dehydratase,r93,-,only active in astrocytes
+glycine cleavage system,r97,-,only active in astrocytes
+branched-chain keto-acid dehydrogenase,r100|r108|r115,-,only active in astrocytes
+branched-chain acyl-coa dehydrogenase,r101|r109|r116,-,only active in astrocytes
+lysine catabolism,-,r120-r123,only active in neurons
+phenylalanine catabolism,-,r125-r129,only active in neurons
+tyrosine catabolism,-,r132-r134,only active in neurons
+acetylcholine metabolism,-,r135,only active in neurons
+cholesterol synthesis,r136,-,only active in astrocytes. Astrocytes supply necessary cholesterol to neurons.
+Arachidonate and Decosahexenoate synthesis,r141|r142,-,only active in astrocytes. Astrocytes supply these fatty acids to neurons.
+cytosolic glycerol 3-phosphate dehydrogenase,r150,-,only active in astrocytes
+mitochondrial glycerol 3-phosphate dehydrogenase,r151,r158,The one in astrocytes is in reverse direction of the cytosolic reaction; thereby mimicking glycerol 3-phosphate shuttle active in astrocytes
+cystine reductase,r167,-,only active in astrocytes
+glycogen phosphorylase,r183|r184,-,only active in astrocytes in stress conditions
